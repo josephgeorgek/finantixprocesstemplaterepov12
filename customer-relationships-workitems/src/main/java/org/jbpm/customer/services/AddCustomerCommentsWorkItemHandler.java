@@ -5,8 +5,7 @@
  */
 package org.jbpm.customer.services;
 
-import com.predic8.crm._1.CustomerType;
-import com.predic8.wsdl.crm.crmservice._1.CustomerService;
+
 import java.util.List;
 import org.kie.api.runtime.process.WorkItem;
 import org.kie.api.runtime.process.WorkItemHandler;
@@ -25,13 +24,10 @@ public class AddCustomerCommentsWorkItemHandler implements WorkItemHandler{
     public void executeWorkItem(WorkItem wi, WorkItemManager wim) {
             
             String email = (String)wi.getParameter("in_customer_email");
-            CustomerService cs = new CustomerService();
-            List<CustomerType> all = cs.getCRMServicePTPort().getAll();
-            
-            CustomerType customer = cs.getCRMServicePTPort().get(email);
+           
             String comment = (String)wi.getParameter("in_customer_comment");
-            if(customer != null){
-                CustomerRelationshipsService.getInstance().addComment(email, comment, customer.getPerson().getAge().intValue() );
+            if(comment != null){
+                //CustomerRelationshipsService.getInstance().addComment(email, comment, null );
                 System.out.println(" Customer Comment Added to our database: "+ email);
             }else{
                 System.out.println(" There was an error trying to add the comment to our database");
