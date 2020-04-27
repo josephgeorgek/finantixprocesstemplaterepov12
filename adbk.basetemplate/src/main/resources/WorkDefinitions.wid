@@ -10,14 +10,6 @@ import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
     "displayName" : "Create Customer",
     "icon" : "defaultemailicon.gif"
   ],
-[
-    "name" : "FinantixServiceMEDocStatusUpdate",
-    "parameters" : [
-	"in_customer_id" : new StringDataType()	
-    ],
-    "displayName" : "Finantix Media Engine Doc Status Update",
-    "icon" : "defaultemailicon.gif"
-  ],
   [
     "name" : "ManagersReport",
     "parameters" : [
@@ -27,11 +19,11 @@ import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
     "icon" : "defaultemailicon.gif"
   ],
   [
-    "name" : "AddCustomerComment",
+    "name" : "AddCustomerComments",
     "parameters" : [
 	"Comment" : new StringDataType()	
     ],
-    "displayName" : "Add Customer Comment",
+    "displayName" : "Add Customer Comments",
     "icon" : "defaultemailicon.gif"
   ],
   [
@@ -94,6 +86,19 @@ import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
     ],
     "displayName" : "REST",
     "icon" : "defaultservicenodeicon.png"
+  ],
+  [
+    "name" : "FinantixServiceContactStatusUpdate", 
+    "parameters" : [ 
+        "docid" : new StringDataType(), 
+        "status" : new StringDataType(), 
+        
+    ], 
+    "results" : [ 
+        "Result" : new ObjectDataType("java.util.Map") 
+    ], 
+    "displayName" : "Finantix Contact Status services", 
+    "icon" : "" 
   ]
 
 ]
