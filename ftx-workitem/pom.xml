@@ -6,7 +6,7 @@
  <groupId>com.finantix.jbpm</groupId>
   <version>7.35.0.Final</version>
   <artifactId>ftx-workitem</artifactId>
-  <name>FTX</name>
+  <name>Trade Execution Base template</name>
   <description>Create ftx services</description>
   <organization>
     <name>jBPM dev team</name>

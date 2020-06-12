@@ -1,2 +1,0 @@
-This project shows a business process which interacts with an external (public) web services to store customers.
-Because the Finantix service is hosted in a remote finantix server, you will need to have API connection to run the example.
