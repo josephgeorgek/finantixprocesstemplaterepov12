@@ -1,0 +1,11 @@
+[
+  [
+     "name" : "PostActivity",
+     "parameters" : [
+       "jsonString" : new StringDataType()
+     ],
+     "displayName" : "PostActivity Task",
+     "icon" : "defaultdecisionicon.png",
+     "category" : "Finantix tasks"
+   ]
+]
