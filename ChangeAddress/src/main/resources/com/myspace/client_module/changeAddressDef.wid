@@ -1,0 +1,80 @@
+[
+  [
+    "name" : "GetClientInfo",
+    "parameters" : [
+        "clientid" : new StringDataType()
+    
+    ],
+    "results" : [
+        "Result" : new ObjectDataType(),
+    ],
+    "displayName" : "GetClientInfo",
+    "icon" : "defaultservicenodeicon.png",
+    "category" : "Finantix tasks"
+  ],
+  [
+    "name" : "GetClientAddresses",
+    "parameters" : [
+        "clientid" : new StringDataType()
+    
+    ],
+    "results" : [
+        "Result" : new ObjectDataType(),
+    ],
+    "displayName" : "GetClientAddresses",
+    "icon" : "defaultservicenodeicon.png",
+    "category" : "Finantix tasks"
+  ],
+  [
+    "name" : "UpdateClientAddresses",
+    "parameters" : [
+        "clientid" : new StringDataType()
+    
+    ],
+    "results" : [
+        "Result" : new ObjectDataType(),
+    ],
+    "displayName" : "UpdateClientAddresses",
+    "icon" : "defaultservicenodeicon.png",
+    "category" : "Finantix tasks"
+  ],
+  [
+    "name" : "UpdateClientAddresses",
+    "parameters" : [
+        "clientid" : new StringDataType()
+    
+    ],
+    "results" : [
+        "Result" : new ObjectDataType(),
+    ],
+    "displayName" : "UpdateClientAddresses",
+    "icon" : "defaultservicenodeicon.png",
+    "category" : "Finantix tasks"
+  ],
+  [
+    "name" : "GenerateOTP",
+    "parameters" : [
+        "clientid" : new StringDataType()
+    
+    ],
+    "results" : [
+        "Result" : new ObjectDataType(),
+    ],
+    "displayName" : "GenerateOTP",
+    "icon" : "defaultservicenodeicon.png",
+    "category" : "Finantix tasks"
+  ],
+  [
+    "name" : "VerifyOTP",
+    "parameters" : [
+        "clientid" : new StringDataType()
+    
+    ],
+    "results" : [
+        "Result" : new ObjectDataType(),
+    ],
+    "displayName" : "VerifyOTP",
+    "icon" : "defaultservicenodeicon.png",
+    "category" : "Finantix tasks"
+  ]
+]
