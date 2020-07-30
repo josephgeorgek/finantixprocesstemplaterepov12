@@ -1,0 +1,128 @@
+[
+  
+[
+    "name" : "GetClientKYC",
+    "parameters" : [
+        "reviewid" : new StringDataType()
+    ],
+    "results" : [
+        "Result" : new ObjectDataType(),
+    ],
+    "displayName" : "GetClientKYC",
+    "icon" : "defaultservicenodeicon.png",
+      "category" : "Finantix tasks"
+  ],
+  
+   [
+    "name" : "GetClientKYCSearch",
+    "parameters" : [
+        "firstName" : new StringDataType(),
+        "lastName" : new StringDataType()
+    ],
+    "results" : [
+        "Result" : new ObjectDataType(),
+    ],
+    "displayName" : "GetClientKYCSearch",
+    "icon" : "defaultservicenodeicon.png",
+      "category" : "Finantix tasks"
+  ],
+  
+   ,
+    [
+    "name" : "AccountOnBoarding",
+    "parameters" : [
+        "firstName" : new StringDataType(),
+        "lastName" : new StringDataType(),
+        "primaryContact" : new StringDataType(),
+        "domicile" : new StringDataType(),
+        "relation" : new StringDataType()
+    ],
+    "results" : [
+        "Result" : new ObjectDataType(),
+    ],
+    "displayName" : "AccountOnBoarding",
+    "icon" : "defaultservicenodeicon.png",
+      "category" : "Finantix tasks"
+  ],
+    [
+    "name" : "AccountOnBoardingBEService",
+    "parameters" : [
+        "firstName" : new StringDataType(),
+        "lastName" : new StringDataType(),
+        "primaryContact" : new StringDataType(),
+        "domicile" : new StringDataType(),
+        "relation" : new StringDataType()
+    ],
+    "results" : [
+        "Result" : new ObjectDataType(),
+    ],
+    "displayName" : "AccountOnBoardingBEService",
+    "icon" : "defaultservicenodeicon.png",
+      "category" : "Finantix tasks"
+  ],
+    [
+    "name" : "AccountOnBoardingStatusUpdate",
+    "parameters" : [
+        "contactId" : new StringDataType(),
+        "clientId" : new StringDataType()
+    ],
+    "results" : [
+        "Result" : new ObjectDataType(),
+    ],
+    "displayName" : "AccountOnBoardingStatusUpdate",
+    "icon" : "defaultservicenodeicon.png",
+      "category" : "Finantix tasks"
+  ],
+    [
+    "name" : "AccountOnBoardingGetContactinfo",
+    "parameters" : [
+        "contactId" : new StringDataType()
+    ],
+    "results" : [
+        "Result" : new ObjectDataType(),
+    ],
+    "displayName" : "AccountOnBoardingGetContactinfo",
+    "icon" : "defaultservicenodeicon.png",
+      "category" : "Finantix tasks"
+  ]
+  
+  ,
+
+[
+    "name" : "GetClientFTXKYC",
+    "parameters" : [
+        "reviewid" : new StringDataType()
+    ],
+    "results" : [
+        "Result" : new ObjectDataType(),
+        "riskInfo" : new StringDataType()
+    ],
+    "displayName" : "GetClientFTXKYC",
+    "icon" : "defaultservicenodeicon.png",
+      "category" : "Finantix tasks"
+  ],
+  
+   [
+    "name" : "GetClientFTXReview",
+    "parameters" : [
+        "firstName" : new StringDataType(),
+        "lastName" : new StringDataType(),
+        "addressCountry" : new StringDataType(),
+        "dateOfBirth" : new StringDataType(), 
+ "placeOfBirthCountry" : new StringDataType()
+       
+    ],
+    "results" : [
+        "Result" : new ObjectDataType(),
+        "reviewid" : new StringDataType(),
+        "reviewURL" : new StringDataType()
+        
+    ],
+    "displayName" : "GetClientFTXReview",
+    "icon" : "defaultservicenodeicon.png",
+      "category" : "Finantix tasks"
+  ]
+
+
+ 
+]
