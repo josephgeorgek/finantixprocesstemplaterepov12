@@ -1,0 +1,417 @@
+{
+  "view": {
+    "id": "Tabs1",
+    "display": "Tabs",
+    "type": "View",
+    "children": [
+      {
+        "id": "IndividualKYCPage",
+        "display": "Page",
+        "title": "Client Information: Individual",
+        "children": [
+          {
+            "id": "grid1",
+            "display": "Grid",
+            "children": [
+              {
+                "id": "variablesRow1",
+                "display": "GridRow",
+                "children": [
+                  {
+                    "id": "variablesContainer1",
+                    "display": "GridColumn",
+                    "width": 12,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "display": "GridRow",
+                "type": "Container",
+                "id": "GridRow3",
+                "children": [
+                  {
+                    "display": "GridColumn",
+                    "width": 12,
+                    "id": "GridColumn3",
+                    "children": [
+                      {
+                        "display": "Group",
+                        "type": "Container",
+                        "title": "Main Contact",
+                        "config": {
+                          "collapsed": false
+                        },
+                        "disabled": false,
+                        "readonly": false,
+                        "id": "IdentityDetailSection",
+                        "children": [
+                          {
+                            "display": "Grid",
+                            "type": "Container",
+                            "id": "Grid3",
+                            "children": [
+                              {
+                                "display": "GridRow",
+                                "type": "Container",
+                                "id": "GridRow4",
+                                "children": [
+                                  {
+                                    "display": "GridColumn",
+                                    "width": 6,
+                                    "id": "GridColumn4",
+                                    "className": "form-inline",
+                                    "children": [
+                                      {
+                                        "display": "TextInput",
+                                        "type": "Control",
+                                        "title": "First name",
+                                        "wrapWithFormGroup": true,
+                                        "required": false,
+                                        "disabled": false,
+                                        "readonly": false,
+                                        "id": "name",
+                                        "config": {
+                                          "labels": {}
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "display": "GridColumn",
+                                    "type": "Container",
+                                    "id": "GridColumn37",
+                                    "className": "form-inline",
+                                    "width": 6,
+                                    "children": [
+                                      {
+                                        "display": "TextInput",
+                                        "type": "Control",
+                                        "title": "Last Name",
+                                        "wrapWithFormGroup": true,
+                                        "required": false,
+                                        "disabled": false,
+                                        "readonly": false,
+                                        "id": "lastName",
+                                        "config": {
+                                          "labels": {}
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "display": "GridRow",
+                                "type": "Container",
+                                "id": "GridRow14",
+                                "children": [
+                                  {
+                                    "display": "GridColumn",
+                                    "width": 6,
+                                    "id": "GridColumn14",
+                                    "className": "form-inline",
+                                    "children": [
+                                      {
+                                        "display": "RadioButtons",
+                                        "type": "Control",
+                                        "title": "Status",
+                                        "wrapWithFormGroup": true,
+                                        "asImages": false,
+                                        "options": [
+                                          {
+                                            "label": "Client",
+                                            "value": "client",
+                                            "isDuplicate": false
+                                          },
+                                          {
+                                            "label": "Prospect",
+                                            "value": "prospect",
+                                            "isDuplicate": false
+                                          }
+                                        ],
+                                        "required": true,
+                                        "disabled": false,
+                                        "readonly": false,
+                                        "config": {
+                                          "hint": {
+                                            "orientation": "bottom",
+                                            "parseHTML": false,
+                                            "appendToBody": true
+                                          }
+                                        },
+                                        "id": "RadioButtons1",
+                                        "initialValue": "prospect"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "display": "GridColumn",
+                                    "type": "Container",
+                                    "id": "GridColumn38",
+                                    "width": 6,
+                                    "className": "form-inline",
+                                    "children": [
+                                      {
+                                        "display": "DateInput",
+                                        "type": "Control",
+                                        "title": "Date of Birth",
+                                        "config": {
+                                          "format": "dd-MM-yyyy",
+                                          "datePicker": {
+                                            "datepickerMode": "day",
+                                            "formatDay": "dd",
+                                            "formatMonth": "MMMM",
+                                            "formatYear": "yyyy",
+                                            "formatDayHeader": "EEE",
+                                            "formatDayTitle": "MMMM yyyy",
+                                            "formatMonthTitle": "yyyy",
+                                            "maxMode": "year",
+                                            "minMode": "day",
+                                            "monthColumns": 3,
+                                            "shortcutPropagation": false,
+                                            "showWeeks": true,
+                                            "startingDay": 1,
+                                            "yearRows": 4,
+                                            "yearColumns": 5
+                                          }
+                                        },
+                                        "wrapWithFormGroup": true,
+                                        "required": false,
+                                        "disabled": false,
+                                        "readonly": false,
+                                        "id": "birthDate"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "display": "GridRow",
+                                "type": "Container",
+                                "id": "GridRow21",
+                                "children": [
+                                  {
+                                    "display": "GridColumn",
+                                    "width": 12,
+                                    "id": "GridColumn44",
+                                    "children": [
+                                      {
+                                        "display": "TextInput",
+                                        "type": "Control",
+                                        "title": "Domicile",
+                                        "wrapWithFormGroup": true,
+                                        "validators": {},
+                                        "required": false,
+                                        "disabled": false,
+                                        "readonly": false,
+                                        "config": {
+                                          "hint": {
+                                            "orientation": "bottom",
+                                            "parseHTML": false,
+                                            "appendToBody": true
+                                          }
+                                        },
+                                        "id": "domicile"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "display": "GridRow",
+                                "type": "Container",
+                                "id": "GridRow16",
+                                "className": "form-inline",
+                                "children": [
+                                  {
+                                    "display": "GridColumn",
+                                    "width": 6,
+                                    "id": "GridColumn16",
+                                    "children": [
+                                      {
+                                        "display": "TextInput",
+                                        "type": "Control",
+                                        "title": "Phone",
+                                        "wrapWithFormGroup": true,
+                                        "required": false,
+                                        "disabled": false,
+                                        "readonly": false,
+                                        "config": {
+                                          "labels": {}
+                                        },
+                                        "id": "phone"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "display": "GridColumn",
+                                    "type": "Container",
+                                    "id": "GridColumn39",
+                                    "className": "form-inline",
+                                    "width": 6,
+                                    "children": [
+                                      {
+                                        "display": "TextInput",
+                                        "type": "Control",
+                                        "title": "Email",
+                                        "wrapWithFormGroup": true,
+                                        "required": false,
+                                        "disabled": false,
+                                        "readonly": false,
+                                        "config": {
+                                          "labels": {}
+                                        },
+                                        "id": "email"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "display": "GridRow",
+                                "type": "Container",
+                                "id": "GridRow20",
+                                "children": [
+                                  {
+                                    "display": "GridColumn",
+                                    "width": 6,
+                                    "id": "GridColumn42",
+                                    "children": [
+                                      {
+                                        "display": "RadioButtons",
+                                        "type": "Control",
+                                        "title": "Collaboration active",
+                                        "wrapWithFormGroup": true,
+                                        "asImages": false,
+                                        "options": [
+                                          {
+                                            "label": "Yes",
+                                            "value": "yes",
+                                            "isDuplicate": false
+                                          },
+                                          {
+                                            "label": "No",
+                                            "isDuplicate": false,
+                                            "value": "no"
+                                          }
+                                        ],
+                                        "required": true,
+                                        "disabled": false,
+                                        "readonly": false,
+                                        "config": {
+                                          "hint": {
+                                            "orientation": "bottom",
+                                            "parseHTML": false,
+                                            "appendToBody": true
+                                          }
+                                        },
+                                        "id": "RadioButtons2",
+                                        "initialValue": "no"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "display": "GridColumn",
+                                    "type": "Container",
+                                    "id": "GridColumn43",
+                                    "width": 6,
+                                    "children": [
+                                      {
+                                        "display": "RadioButtons",
+                                        "type": "Control",
+                                        "title": "Portal active",
+                                        "wrapWithFormGroup": true,
+                                        "asImages": false,
+                                        "options": [
+                                          {
+                                            "label": "Yes",
+                                            "value": "yes",
+                                            "isDuplicate": false
+                                          },
+                                          {
+                                            "label": "No",
+                                            "value": "no",
+                                            "isDuplicate": false
+                                          }
+                                        ],
+                                        "required": true,
+                                        "disabled": false,
+                                        "readonly": false,
+                                        "config": {
+                                          "hint": {
+                                            "orientation": "bottom",
+                                            "parseHTML": false,
+                                            "appendToBody": true
+                                          }
+                                        },
+                                        "id": "RadioButtons3",
+                                        "initialValue": "no"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "config": {}
+      }
+    ]
+  },
+  "designer": {
+    "comment": {},
+    "scores": []
+  },
+  "scores": {},
+  "rules": [],
+  "binding": {
+    "client.firstName": "name",
+    "client.lastName": "lastName",
+    "client.dateOfBitrh": "birthDate",
+    "client.phone": "phone",
+    "client.email": "email",
+    "client.status": "RadioButtons1",
+    "client.domicile": "domicile"
+  },
+  "i18n": {
+    "en-US": {
+      "First Name": "First Name",
+      "Last Name": "Last Name",
+      "Clear": "Clear",
+      "Date of Birth": "Date of Birth",
+      "Today": "Today",
+      "Close": "Close"
+    },
+    "config.labels.placeholder": "",
+    "errorMessages.required": "This field is required",
+    "title": ""
+  },
+  "values": {},
+  "acroformPdf": {
+    "bindings": {},
+    "options": {
+      "rendering": "READONLY"
+    },
+    "pdfs": [
+      {
+        "name": "",
+        "files": {
+          "en-US": {
+            "id": "",
+            "filename": "",
+            "name": ""
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,723 @@
+{
+  "view": {
+    "id": "Tabs1",
+    "display": "Tabs",
+    "type": "View",
+    "children": [
+      {
+        "id": "page1",
+        "display": "Page",
+        "title": "Account Definiion",
+        "children": [
+          {
+            "id": "grid1",
+            "display": "Grid",
+            "children": [
+              {
+                "id": "variablesRow1",
+                "display": "GridRow",
+                "children": [
+                  {
+                    "id": "variablesContainer1",
+                    "display": "GridColumn",
+                    "width": 12,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "display": "GridRow",
+                "type": "Container",
+                "id": "GridRow2",
+                "children": [
+                  {
+                    "display": "GridColumn",
+                    "width": 12,
+                    "id": "GridColumn2",
+                    "children": [
+                      {
+                        "display": "Group",
+                        "type": "Container",
+                        "title": "General Information",
+                        "disabled": false,
+                        "readonly": false,
+                        "id": "GeneralInformation",
+                        "children": [
+                          {
+                            "display": "Grid",
+                            "type": "Container",
+                            "id": "Grid3",
+                            "children": [
+                              {
+                                "display": "GridRow",
+                                "type": "Container",
+                                "id": "GridRow3",
+                                "children": [
+                                  {
+                                    "width": 6,
+                                    "display": "GridColumn",
+                                    "type": "Container",
+                                    "id": "GridColumn3",
+                                    "className": "form-inline",
+                                    "children": [
+                                      {
+                                        "display": "TextInput",
+                                        "type": "Control",
+                                        "title": "Portfolio Identification",
+                                        "wrapWithFormGroup": true,
+                                        "validators": {},
+                                        "required": false,
+                                        "disabled": false,
+                                        "readonly": false,
+                                        "config": {
+                                          "hint": {
+                                            "orientation": "bottom",
+                                            "parseHTML": false,
+                                            "appendToBody": true
+                                          }
+                                        },
+                                        "id": "portfolioIdentification"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "display": "GridColumn",
+                                    "type": "Container",
+                                    "id": "GridColumn14",
+                                    "width": 6,
+                                    "className": "form-inline",
+                                    "children": [
+                                      {
+                                        "display": "TextInput",
+                                        "type": "Control",
+                                        "title": "Purpose of the Portfolio",
+                                        "wrapWithFormGroup": true,
+                                        "validators": {},
+                                        "required": false,
+                                        "disabled": false,
+                                        "readonly": false,
+                                        "config": {
+                                          "hint": {
+                                            "orientation": "bottom",
+                                            "parseHTML": false,
+                                            "appendToBody": true
+                                          }
+                                        },
+                                        "id": "purposePortfolio"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "display": "GridRow",
+                                "type": "Container",
+                                "id": "GridRow14",
+                                "children": [
+                                  {
+                                    "display": "GridColumn",
+                                    "width": 6,
+                                    "id": "GridColumn15",
+                                    "className": "form-inline",
+                                    "children": [
+                                      {
+                                        "display": "DropDown",
+                                        "type": "Control",
+                                        "title": "Reference Currency",
+                                        "useValueAsLabel": false,
+                                        "multiple": false,
+                                        "wrapWithFormGroup": true,
+                                        "options": [
+                                          {
+                                            "label": "EUR",
+                                            "value": "EUR",
+                                            "isDuplicate": false
+                                          },
+                                          {
+                                            "label": "CHF",
+                                            "value": "CHF",
+                                            "isDuplicate": false
+                                          },
+                                          {
+                                            "label": "USD",
+                                            "isDuplicate": false,
+                                            "value": "USD"
+                                          },
+                                          {
+                                            "label": "GBP",
+                                            "isDuplicate": false,
+                                            "value": "GBP"
+                                          }
+                                        ],
+                                        "required": false,
+                                        "disabled": false,
+                                        "readonly": false,
+                                        "config": {
+                                          "hint": {
+                                            "orientation": "bottom",
+                                            "parseHTML": false,
+                                            "appendToBody": true
+                                          }
+                                        },
+                                        "id": "DropDown2"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "display": "GridColumn",
+                                    "type": "Container",
+                                    "id": "GridColumn16",
+                                    "className": "form-inline",
+                                    "width": 6,
+                                    "children": [
+                                      {
+                                        "display": "DropDown",
+                                        "type": "Control",
+                                        "title": "Mandate",
+                                        "useValueAsLabel": false,
+                                        "multiple": false,
+                                        "wrapWithFormGroup": true,
+                                        "options": [
+                                          {
+                                            "label": "Execution Only",
+                                            "value": "EO",
+                                            "isDuplicate": false
+                                          },
+                                          {
+                                            "label": "Discretionary",
+                                            "value": "Discretionary",
+                                            "isDuplicate": false
+                                          },
+                                          {
+                                            "label": "Advisory",
+                                            "isDuplicate": false,
+                                            "value": "Advisory"
+                                          }
+                                        ],
+                                        "required": false,
+                                        "disabled": false,
+                                        "readonly": false,
+                                        "config": {
+                                          "hint": {
+                                            "orientation": "bottom",
+                                            "parseHTML": false,
+                                            "appendToBody": true
+                                          }
+                                        },
+                                        "id": "DropDown3"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "display": "GridRow",
+                                "type": "Container",
+                                "id": "GridRow28",
+                                "children": [
+                                  {
+                                    "display": "GridColumn",
+                                    "width": 12,
+                                    "id": "GridColumn45",
+                                    "children": [
+                                      {
+                                        "display": "DropDown",
+                                        "type": "Control",
+                                        "title": "Type",
+                                        "useValueAsLabel": false,
+                                        "multiple": false,
+                                        "wrapWithFormGroup": true,
+                                        "options": [
+                                          {
+                                            "label": "Cash",
+                                            "value": "Cash",
+                                            "isDuplicate": false
+                                          },
+                                          {
+                                            "label": "Safe Keeping",
+                                            "value": "SafeKeeping",
+                                            "isDuplicate": false
+                                          }
+                                        ],
+                                        "required": false,
+                                        "disabled": false,
+                                        "readonly": false,
+                                        "config": {
+                                          "hint": {
+                                            "orientation": "bottom",
+                                            "parseHTML": false,
+                                            "appendToBody": true
+                                          }
+                                        },
+                                        "id": "accountType"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "display": "GridRow",
+                "type": "Container",
+                "id": "GridRow6",
+                "children": [
+                  {
+                    "display": "GridColumn",
+                    "width": 12,
+                    "id": "GridColumn6",
+                    "children": [
+                      {
+                        "display": "Group",
+                        "type": "Container",
+                        "title": "Funding",
+                        "disabled": false,
+                        "readonly": false,
+                        "id": "Funding",
+                        "children": [
+                          {
+                            "display": "Grid",
+                            "type": "Container",
+                            "id": "Grid5",
+                            "children": [
+                              {
+                                "display": "GridRow",
+                                "type": "Container",
+                                "id": "GridRow7",
+                                "children": [
+                                  {
+                                    "width": 6,
+                                    "display": "GridColumn",
+                                    "type": "Container",
+                                    "id": "GridColumn7",
+                                    "className": "form-inline",
+                                    "children": [
+                                      {
+                                        "display": "TextArea",
+                                        "type": "Control",
+                                        "title": "Origin of Funds",
+                                        "wrapWithFormGroup": true,
+                                        "required": false,
+                                        "disabled": false,
+                                        "readonly": false,
+                                        "config": {
+                                          "hint": {
+                                            "orientation": "bottom",
+                                            "parseHTML": false,
+                                            "appendToBody": true
+                                          }
+                                        },
+                                        "id": "sourcesOfFundsDescription"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "display": "GridColumn",
+                                    "type": "Container",
+                                    "id": "GridColumn27",
+                                    "width": 6,
+                                    "className": "form-inline",
+                                    "children": [
+                                      {
+                                        "display": "DropDown",
+                                        "type": "Control",
+                                        "title": "Source of Funds: Countries",
+                                        "useValueAsLabel": false,
+                                        "multiple": false,
+                                        "wrapWithFormGroup": true,
+                                        "options": [
+                                          {
+                                            "label": "Switzerland",
+                                            "value": "Switzerland",
+                                            "isDuplicate": false
+                                          },
+                                          {
+                                            "label": "United Kingdom",
+                                            "value": "UK",
+                                            "isDuplicate": false
+                                          },
+                                          {
+                                            "label": "Germany",
+                                            "isDuplicate": false,
+                                            "value": "Germany"
+                                          },
+                                          {
+                                            "isDuplicate": false,
+                                            "label": "French",
+                                            "value": "French"
+                                          }
+                                        ],
+                                        "required": false,
+                                        "disabled": false,
+                                        "readonly": false,
+                                        "config": {
+                                          "hint": {
+                                            "orientation": "bottom",
+                                            "parseHTML": false,
+                                            "appendToBody": true
+                                          }
+                                        },
+                                        "id": "DropDown1"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "display": "GridRow",
+                                "type": "Container",
+                                "id": "GridRow19",
+                                "children": [
+                                  {
+                                    "display": "GridColumn",
+                                    "width": 6,
+                                    "id": "GridColumn26",
+                                    "className": "form-inline",
+                                    "children": [
+                                      {
+                                        "display": "MoneyInput",
+                                        "type": "Control",
+                                        "title": "Initial Funding",
+                                        "wrapWithFormGroup": true,
+                                        "bigDecimal": false,
+                                        "required": false,
+                                        "disabled": false,
+                                        "readonly": false,
+                                        "initialValue": {},
+                                        "id": "expectedInvestmentAmount"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "display": "GridColumn",
+                                    "type": "Container",
+                                    "id": "GridColumn28",
+                                    "className": "form-inline",
+                                    "width": 6,
+                                    "children": [
+                                      {
+                                        "display": "TextInput",
+                                        "type": "Control",
+                                        "title": "Source of Funds: Bank",
+                                        "wrapWithFormGroup": true,
+                                        "validators": {},
+                                        "required": false,
+                                        "disabled": false,
+                                        "readonly": false,
+                                        "config": {
+                                          "hint": {
+                                            "orientation": "bottom",
+                                            "parseHTML": false,
+                                            "appendToBody": true
+                                          }
+                                        },
+                                        "id": "sourceOfFundsBank"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "display": "GridRow",
+                "type": "Container",
+                "id": "GridRow12",
+                "children": [
+                  {
+                    "display": "GridColumn",
+                    "width": 12,
+                    "id": "GridColumn12",
+                    "children": [
+                      {
+                        "display": "Group",
+                        "type": "Container",
+                        "title": "Expected Transaction Volumes",
+                        "disabled": false,
+                        "readonly": false,
+                        "id": "ExpectedTransactionVolumes",
+                        "children": [
+                          {
+                            "display": "Grid",
+                            "type": "Container",
+                            "id": "Grid8",
+                            "children": [
+                              {
+                                "display": "GridRow",
+                                "type": "Container",
+                                "id": "GridRow13",
+                                "children": [
+                                  {
+                                    "width": 6,
+                                    "display": "GridColumn",
+                                    "type": "Container",
+                                    "id": "GridColumn13",
+                                    "className": "form-inline",
+                                    "children": [
+                                      {
+                                        "display": "MoneyInput",
+                                        "type": "Control",
+                                        "title": "Annual Outgoing Transfers",
+                                        "wrapWithFormGroup": true,
+                                        "bigDecimal": false,
+                                        "required": false,
+                                        "disabled": false,
+                                        "readonly": false,
+                                        "config": {
+                                          "hint": {
+                                            "orientation": "bottom",
+                                            "parseHTML": false,
+                                            "appendToBody": true
+                                          }
+                                        },
+                                        "id": "estimatedAnnualOutgoingTransfers"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "display": "GridColumn",
+                                    "type": "Container",
+                                    "id": "GridColumn35",
+                                    "width": 6,
+                                    "className": "form-inline",
+                                    "children": [
+                                      {
+                                        "display": "MoneyInput",
+                                        "type": "Control",
+                                        "title": "Annual Inbound Transfers",
+                                        "wrapWithFormGroup": true,
+                                        "bigDecimal": false,
+                                        "required": false,
+                                        "disabled": false,
+                                        "readonly": false,
+                                        "initialValue": {},
+                                        "id": "estimatedAnnualInboundTransfers"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "display": "GridRow",
+                                "type": "Container",
+                                "id": "GridRow27",
+                                "children": [
+                                  {
+                                    "display": "GridColumn",
+                                    "width": 6,
+                                    "id": "GridColumn43",
+                                    "children": [
+                                      {
+                                        "display": "DropDown",
+                                        "type": "Control",
+                                        "title": "Destination Countries",
+                                        "useValueAsLabel": false,
+                                        "multiple": false,
+                                        "wrapWithFormGroup": true,
+                                        "options": [
+                                          {
+                                            "label": "Switzerland",
+                                            "value": "Switzerland",
+                                            "isDuplicate": false
+                                          },
+                                          {
+                                            "label": "United Kingdom",
+                                            "value": "UK",
+                                            "isDuplicate": false
+                                          },
+                                          {
+                                            "label": "Germany",
+                                            "isDuplicate": false,
+                                            "value": "Germany"
+                                          },
+                                          {
+                                            "label": "French",
+                                            "isDuplicate": false,
+                                            "value": "French"
+                                          }
+                                        ],
+                                        "required": false,
+                                        "disabled": false,
+                                        "readonly": false,
+                                        "config": {
+                                          "hint": {
+                                            "orientation": "bottom",
+                                            "parseHTML": false,
+                                            "appendToBody": true
+                                          }
+                                        },
+                                        "id": "DropDown4"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "display": "GridColumn",
+                                    "type": "Container",
+                                    "id": "GridColumn44",
+                                    "width": 6,
+                                    "children": [
+                                      {
+                                        "display": "DropDown",
+                                        "type": "Control",
+                                        "title": "Origin Countries",
+                                        "useValueAsLabel": false,
+                                        "multiple": false,
+                                        "wrapWithFormGroup": true,
+                                        "options": [
+                                          {
+                                            "label": "Switzerland",
+                                            "value": "Switzerland",
+                                            "isDuplicate": false
+                                          },
+                                          {
+                                            "label": "United Kingdom",
+                                            "value": "UK",
+                                            "isDuplicate": false
+                                          },
+                                          {
+                                            "label": "Germany",
+                                            "isDuplicate": false,
+                                            "value": "Germany"
+                                          },
+                                          {
+                                            "isDuplicate": false,
+                                            "label": "French",
+                                            "value": "French"
+                                          }
+                                        ],
+                                        "required": false,
+                                        "disabled": false,
+                                        "readonly": false,
+                                        "config": {
+                                          "hint": {
+                                            "orientation": "bottom",
+                                            "parseHTML": false,
+                                            "appendToBody": true
+                                          }
+                                        },
+                                        "id": "DropDown5"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "display": "GridRow",
+                                "type": "Container",
+                                "id": "GridRow23",
+                                "children": [
+                                  {
+                                    "display": "GridColumn",
+                                    "width": 6,
+                                    "id": "GridColumn38",
+                                    "className": "form-inline",
+                                    "children": [
+                                      {
+                                        "display": "TextArea",
+                                        "type": "Control",
+                                        "title": "Notes",
+                                        "wrapWithFormGroup": true,
+                                        "required": false,
+                                        "disabled": false,
+                                        "readonly": false,
+                                        "config": {
+                                          "hint": {
+                                            "orientation": "bottom",
+                                            "parseHTML": false,
+                                            "appendToBody": true
+                                          }
+                                        },
+                                        "id": "estimatedAnnualOutgoingTransfersNotes"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "display": "GridColumn",
+                                    "type": "Container",
+                                    "id": "GridColumn39",
+                                    "className": "form-inline",
+                                    "width": 6,
+                                    "children": [
+                                      {
+                                        "display": "TextArea",
+                                        "type": "Control",
+                                        "title": "Notes",
+                                        "wrapWithFormGroup": true,
+                                        "required": false,
+                                        "disabled": false,
+                                        "readonly": false,
+                                        "config": {
+                                          "hint": {
+                                            "orientation": "bottom",
+                                            "parseHTML": false,
+                                            "appendToBody": true
+                                          }
+                                        },
+                                        "id": "estimatedAnnualInboundTransfersNotes"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "designer": {
+    "comment": {},
+    "scores": []
+  },
+  "scores": {},
+  "acroformPdf": {
+    "pdfs": [],
+    "bindings": {}
+  },
+  "rules": [],
+  "binding": {
+    "account.id": "portfolioIdentification",
+    "account.purpose": "purposePortfolio",
+    "account.origin": "sourcesOfFundsDescription",
+    "account.initialFund": "expectedInvestmentAmount",
+    "account.sourceBank": "sourceOfFundsBank",
+    "account.annualOutgoingTransfer": "estimatedAnnualOutgoingTransfers",
+    "account.annualInboundTransfer": "estimatedAnnualInboundTransfers",
+    "account.outgoingNotes": "estimatedAnnualOutgoingTransfersNotes",
+    "account.inboundNotes": "estimatedAnnualInboundTransfersNotes",
+    "account.sourceCountry": "DropDown1",
+    "account.mandate": "DropDown3",
+    "account.currency": "DropDown2",
+    "account.countryDestination": "DropDown4",
+    "account.countryOrigin": "DropDown5",
+    "account.type": "accountType"
+  },
+  "values": {},
+  "i18n": {
+    "config.labels.placeholder": "Please select",
+    "errorMessages.required": "This field is required",
+    "title": "",
+    "options[].label": null,
+    "config.labels.clear": "Clear"
+  }
+}

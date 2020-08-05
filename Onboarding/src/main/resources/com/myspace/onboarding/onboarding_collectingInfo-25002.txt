@@ -1,0 +1,522 @@
+{
+  "view": {
+    "id": "Tabs1",
+    "display": "Tabs",
+    "type": "View",
+    "children": [
+      {
+        "id": "parties_page",
+        "display": "Page",
+        "title": "Parties",
+        "children": [
+          {
+            "id": "grid3",
+            "display": "Grid",
+            "children": [
+              {
+                "id": "variablesRow2",
+                "display": "GridRow",
+                "children": [
+                  {
+                    "id": "variablesContainer2",
+                    "display": "GridColumn",
+                    "width": 12,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "row2",
+                "display": "GridRow",
+                "children": [
+                  {
+                    "id": "column2",
+                    "display": "GridColumn",
+                    "width": 12,
+                    "children": [
+                      {
+                        "display": "Repeater",
+                        "type": "Collection",
+                        "minItems": 1,
+                        "disabled": false,
+                        "id": "Repeater2",
+                        "template": {
+                          "display": "Grid",
+                          "type": "Container",
+                          "id": "Grid4",
+                          "children": [
+                            {
+                              "display": "GridRow",
+                              "type": "Container",
+                              "id": "GridRow13",
+                              "children": [
+                                {
+                                  "display": "GridColumn",
+                                  "width": 12,
+                                  "id": "GridColumn20",
+                                  "children": [
+                                    {
+                                      "display": "RadioButtons",
+                                      "type": "Control",
+                                      "wrapWithFormGroup": true,
+                                      "asImages": false,
+                                      "options": [
+                                        {
+                                          "label": "existing Client",
+                                          "value": "false",
+                                          "isDuplicate": false
+                                        },
+                                        {
+                                          "label": "new party",
+                                          "value": "true",
+                                          "isDuplicate": false
+                                        }
+                                      ],
+                                      "required": false,
+                                      "disabled": false,
+                                      "readonly": false,
+                                      "config": {
+                                        "hint": {
+                                          "orientation": "bottom",
+                                          "parseHTML": false,
+                                          "appendToBody": true
+                                        }
+                                      },
+                                      "id": "existingClient",
+                                      "initialValue": "true"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "display": "GridRow",
+                              "type": "Container",
+                              "id": "GridRow8",
+                              "children": [
+                                {
+                                  "display": "GridColumn",
+                                  "width": 12,
+                                  "id": "GridColumn11",
+                                  "children": [
+                                    {
+                                      "display": "DropDownPopup",
+                                      "type": "Control",
+                                      "title": "Select party from contacts",
+                                      "wrapWithFormGroup": true,
+                                      "options": [
+                                        {
+                                          "label": "Paul Williams",
+                                          "value": "1",
+                                          "internalId": "ku9z9mn0bu"
+                                        },
+                                        {
+                                          "label": "Linda Williams",
+                                          "value": "2",
+                                          "internalId": "pl0uok0kkl"
+                                        },
+                                        {
+                                          "label": "Stefany Williams",
+                                          "value": "3",
+                                          "internalId": "oabg4j7313"
+                                        },
+                                        {
+                                          "label": "Judith Donnellan",
+                                          "value": "4",
+                                          "internalId": "depnndtb28"
+                                        },
+                                        {
+                                          "label": "Joseph Sagan",
+                                          "value": "5",
+                                          "internalId": "sv1afqocqa"
+                                        }
+                                      ],
+                                      "required": false,
+                                      "disabled": false,
+                                      "readonly": false,
+                                      "config": {
+                                        "hint": {
+                                          "orientation": "bottom",
+                                          "parseHTML": false,
+                                          "appendToBody": true
+                                        }
+                                      },
+                                      "id": "contacts"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "display": "GridRow",
+                              "type": "Container",
+                              "id": "GridRow14",
+                              "children": [
+                                {
+                                  "display": "GridColumn",
+                                  "width": 12,
+                                  "id": "GridColumn21",
+                                  "children": [
+                                    {
+                                      "display": "Group",
+                                      "type": "Container",
+                                      "title": "Party Info",
+                                      "disabled": false,
+                                      "readonly": false,
+                                      "id": "partyInfo_group",
+                                      "children": [
+                                        {
+                                          "display": "Grid",
+                                          "type": "Container",
+                                          "id": "Grid8",
+                                          "children": [
+                                            {
+                                              "display": "GridRow",
+                                              "type": "Container",
+                                              "id": "GridRow15",
+                                              "children": [
+                                                {
+                                                  "width": 6,
+                                                  "display": "GridColumn",
+                                                  "type": "Container",
+                                                  "id": "GridColumn22",
+                                                  "children": [
+                                                    {
+                                                      "display": "TextInput",
+                                                      "type": "Control",
+                                                      "title": "First Name",
+                                                      "wrapWithFormGroup": true,
+                                                      "required": false,
+                                                      "disabled": false,
+                                                      "readonly": false,
+                                                      "config": {
+                                                        "hint": {
+                                                          "orientation": "bottom",
+                                                          "parseHTML": false,
+                                                          "appendToBody": true
+                                                        }
+                                                      },
+                                                      "id": "firstName"
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "display": "GridColumn",
+                                                  "type": "Container",
+                                                  "id": "GridColumn23",
+                                                  "width": 6,
+                                                  "children": [
+                                                    {
+                                                      "display": "TextInput",
+                                                      "type": "Control",
+                                                      "title": "Last Name",
+                                                      "wrapWithFormGroup": true,
+                                                      "required": false,
+                                                      "disabled": false,
+                                                      "readonly": false,
+                                                      "config": {
+                                                        "hint": {
+                                                          "orientation": "bottom",
+                                                          "parseHTML": false,
+                                                          "appendToBody": true
+                                                        }
+                                                      },
+                                                      "id": "lastName"
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "display": "GridRow",
+                                              "type": "Container",
+                                              "id": "GridRow17",
+                                              "children": [
+                                                {
+                                                  "display": "GridColumn",
+                                                  "width": 6,
+                                                  "id": "GridColumn25",
+                                                  "children": [
+                                                    {
+                                                      "display": "DropDown",
+                                                      "type": "Control",
+                                                      "title": "Domicile",
+                                                      "multiple": false,
+                                                      "wrapWithFormGroup": true,
+                                                      "options": [
+                                                        {
+                                                          "label": "FR",
+                                                          "value": "FR"
+                                                        },
+                                                        {
+                                                          "label": "UK",
+                                                          "value": "UK"
+                                                        }
+                                                      ],
+                                                      "required": false,
+                                                      "disabled": false,
+                                                      "readonly": false,
+                                                      "config": {
+                                                        "hint": {
+                                                          "orientation": "bottom",
+                                                          "parseHTML": false,
+                                                          "appendToBody": true
+                                                        }
+                                                      },
+                                                      "id": "domicile"
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "display": "GridColumn",
+                                                  "type": "Container",
+                                                  "id": "GridColumn26",
+                                                  "width": 6,
+                                                  "children": [
+                                                    {
+                                                      "display": "CheckBoxes",
+                                                      "type": "Control",
+                                                      "wrapWithFormGroup": true,
+                                                      "asImages": false,
+                                                      "options": [
+                                                        {
+                                                          "label": "Minor",
+                                                          "value": "true"
+                                                        }
+                                                      ],
+                                                      "required": false,
+                                                      "disabled": false,
+                                                      "readonly": false,
+                                                      "config": {
+                                                        "hint": {
+                                                          "orientation": "bottom",
+                                                          "parseHTML": false,
+                                                          "appendToBody": true
+                                                        }
+                                                      },
+                                                      "id": "minor"
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "display": "GridRow",
+                                              "type": "Container",
+                                              "id": "GridRow18",
+                                              "children": [
+                                                {
+                                                  "display": "GridColumn",
+                                                  "width": 12,
+                                                  "id": "GridColumn27",
+                                                  "children": [
+                                                    {
+                                                      "display": "DropDown",
+                                                      "type": "Control",
+                                                      "title": "Relation with main client",
+                                                      "multiple": false,
+                                                      "wrapWithFormGroup": true,
+                                                      "options": [
+                                                        {
+                                                          "label": "Client",
+                                                          "value": "Client"
+                                                        },
+                                                        {
+                                                          "label": "Spouse",
+                                                          "value": "Spouse"
+                                                        },
+                                                        {
+                                                          "label": "Daughter",
+                                                          "value": "Daughter"
+                                                        },
+                                                        {
+                                                          "label": "Accountant",
+                                                          "value": "Accountant"
+                                                        },
+                                                        {
+                                                          "label": "Lawyer",
+                                                          "value": "Lawyer"
+                                                        }
+                                                      ],
+                                                      "required": false,
+                                                      "disabled": false,
+                                                      "readonly": false,
+                                                      "config": {
+                                                        "hint": {
+                                                          "orientation": "bottom",
+                                                          "parseHTML": false,
+                                                          "appendToBody": true
+                                                        }
+                                                      },
+                                                      "id": "relation"
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "display": "GridRow",
+                              "type": "Container",
+                              "id": "GridRow27",
+                              "children": [
+                                {
+                                  "display": "GridColumn",
+                                  "width": 12,
+                                  "id": "GridColumn38",
+                                  "children": [
+                                    {
+                                      "display": "DropDown",
+                                      "type": "Control",
+                                      "title": "Party Role",
+                                      "useValueAsLabel": false,
+                                      "multiple": false,
+                                      "wrapWithFormGroup": true,
+                                      "options": [
+                                        {
+                                          "label": "Account Holder",
+                                          "value": "AH",
+                                          "isDuplicate": false
+                                        },
+                                        {
+                                          "label": "Online",
+                                          "value": "Online",
+                                          "isDuplicate": false
+                                        },
+                                        {
+                                          "isDuplicate": false,
+                                          "label": "Card",
+                                          "value": "Card"
+                                        },
+                                        {
+                                          "isDuplicate": false,
+                                          "label": "Beneficiary Owner",
+                                          "value": "BO"
+                                        },
+                                        {
+                                          "isDuplicate": false,
+                                          "label": "Power of Attorney",
+                                          "value": "POA"
+                                        }
+                                      ],
+                                      "required": false,
+                                      "disabled": false,
+                                      "readonly": false,
+                                      "config": {
+                                        "hint": {
+                                          "orientation": "bottom",
+                                          "parseHTML": false,
+                                          "appendToBody": true
+                                        }
+                                      },
+                                      "id": "role"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        "config": {
+                          "labels": {
+                            "item": "Party",
+                            "add": "Add Party"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "designer": {
+    "comment": {},
+    "scores": []
+  },
+  "scores": {},
+  "acroformPdf": {
+    "pdfs": [],
+    "options": {
+      "rendering": "READONLY"
+    },
+    "bindings": {}
+  },
+  "rules": [
+    {
+      "quantifier": "logicand.function",
+      "conditions": [
+        {
+          "id": "contains.function",
+          "parameters": {
+            "value": "${Repeater2[].existingClient}",
+            "expected": "true"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "id": "hide",
+          "parameters": {
+            "element": "@{Repeater2[].contacts}"
+          }
+        }
+      ]
+    },
+    {
+      "quantifier": "logicand.function",
+      "conditions": [
+        {
+          "id": "contains.function",
+          "parameters": {
+            "value": "${Repeater2[].existingClient}",
+            "expected": "false"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "id": "hide",
+          "parameters": {
+            "element": "@{Repeater2[].partyInfo_group}"
+          }
+        }
+      ]
+    }
+  ],
+  "binding": {
+    "parties[].firstName": "Repeater2[].firstName",
+    "parties[].lastName": "Repeater2[].lastName",
+    "parties[].domicile": "Repeater2[].domicile",
+    "parties[].minor": "Repeater2[].minor",
+    "parties[].relation": "Repeater2[].relation",
+    "parties[].id": "Repeater2[].contacts",
+    "parties[].isNew": "Repeater2[].existingClient",
+    "account.jurisdiction": "jurisdiction",
+    "account.currency": "currency",
+    "account.type": "type",
+    "account.subType": "subType",
+    "account.access": "access",
+    "account.description": "description",
+    "parties[].role": "Repeater2[].role"
+  },
+  "i18n": {
+    "config.labels.placeholder": "Please select",
+    "errorMessages.required": "This field is required",
+    "title": "",
+    "options[].label": null,
+    "config.labels.clear": "Clear"
+  },
+  "values": {}
+}
